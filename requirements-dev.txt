@@ -276,9 +276,9 @@ cryptography==40.0.1 \
     #   azure-identity
     #   msal
     #   pyjwt
-django==4.2 \
-    --hash=sha256:ad33ed68db9398f5dfb33282704925bce044bef4261cd4fb59e4e7f9ae505a78 \
-    --hash=sha256:c36e2ab12824e2ac36afa8b2515a70c53c7742f0d6eaefa7311ec379558db997
+django==4.2.1 \
+    --hash=sha256:066b6debb5ac335458d2a713ed995570536c8b59a580005acb0732378d5eb1ee \
+    --hash=sha256:7efa6b1f781a6119a10ac94b4794ded90db8accbe7802281cd26f8664ffed59c
     # via
     #   -r demo-code/requirements.txt
     #   crispy-bootstrap4
@@ -618,9 +618,9 @@ six==1.16.0 \
     #   azure-core
     #   azure-identity
     #   google-auth
-sqlparse==0.4.3 \
-    --hash=sha256:0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34 \
-    --hash=sha256:69ca804846bb114d2ec380e4360a8a340db83f0ccf3afceeb1404df028f57268
+sqlparse==0.4.4 \
+    --hash=sha256:5430a4fe2ac7d0f93e66f1efc6e1338a41884b7ddf2a350cedd20ccc4d9d28f3 \
+    --hash=sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c
     # via
     #   -r demo-code/requirements.txt
     #   django
@@ -631,9 +631,9 @@ typing-extensions==4.5.0 \
     #   -r demo-code/requirements.txt
     #   azure-core
     #   pyee
-urllib3==1.26.15 \
-    --hash=sha256:8a388717b9476f934a21484e8c8e61875ab60644d29b9b39e11e4b9dc1c6b305 \
-    --hash=sha256:aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42
+urllib3==1.26.17 \
+    --hash=sha256:24d6a242c28d29af46c3fae832c36db3bbebcc533dd1bb549172cd739c82df21 \
+    --hash=sha256:94a757d178c9be92ef5539b8840d48dc9cf1b2709c9d6b588232a055c524458b
     # via
     #   -r demo-code/requirements.txt
     #   requests
@@ -647,6 +647,7 @@ whitenoise==6.4.0 \
     # via -r demo-code/requirements.txt
 
 # WARNING: The following packages were not pinned, but pip requires them to be
-# pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
+# pinned when the requirements file includes hashes and the requirement is not
+# satisfied by a package already installed. Consider using the --allow-unsafe flag.
 # pip
 # setuptools
